@@ -50,7 +50,7 @@ Handles:
 1. Clone the repository
 
 ```bash
-git clone <https://github.com/Sathish292004/Quiz-Using-Java.git>
+git clone https://github.com/Sathish292004/Quiz-Using-Java.git
 ```
 
 2. Compile the files
