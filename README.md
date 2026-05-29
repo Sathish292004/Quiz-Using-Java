@@ -84,7 +84,3 @@ This project helped in understanding:
 - Randomize questions
 - Add timer functionality
 - Read questions from a file or database
-
-## Author
-
-SK
