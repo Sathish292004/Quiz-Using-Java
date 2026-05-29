@@ -23,13 +23,15 @@ public class QuestionServices
         {
             System.out.println("Question no : " + q.getId());
             System.out.println(q.getQuestion());
+                Scanner sc = new Scanner(System.in);
                 for(String option : q.getOpt())
                 {
                     System.out.println(option);
                 }
-            System.out.println("");
+             System.out.println("");
+             System.out.print("Enter answer: ");
 
-            Scanner sc = new Scanner(System.in);
+           
             selection[i] = sc.nextLine();
             i++;
         }
