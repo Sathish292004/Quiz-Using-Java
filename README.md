@@ -1,86 +1,162 @@
-# Java Quiz Application
+# 🎯 Java Quiz Application
 
-A simple console-based Quiz Application built using Java and Object-Oriented Programming (OOP) concepts.
+A simple, console-based **Quiz Application** developed using **Java** and **Object-Oriented Programming (OOP)** principles. The application allows users to answer multiple-choice questions, records their responses, and demonstrates core Java programming concepts.
 
-## Features
+---
 
-- Multiple-choice quiz questions
-- Stores user answers
-- Displays all answers after quiz completion
-- Uses arrays and classes
-- Demonstrates OOP concepts such as:
-  - Encapsulation
-  - Constructors
-  - Objects
-  - Arrays of Objects
+## ✨ Features
 
-## Project Structure
+- 📝 Multiple-choice quiz questions
+- 👤 Accepts user input using `Scanner`
+- 💾 Stores user answers
+- 📋 Displays user responses after quiz completion
+- 🧩 Modular class-based architecture
+- 🔄 Easy to add or modify questions
+- 📚 Demonstrates Object-Oriented Programming concepts
+
+---
+
+## 📂 Project Structure
 
 ```
-Main.java
-Question.java
-QuestionServices.java
+Quiz-Using-Java/
+│── Main.java
+│── Question.java
+│── QuestionServices.java
+└── README.md
 ```
 
-### Main.java
-Starts the quiz application.
+### 📄 Main.java
+- Entry point of the application
+- Starts the quiz
 
-### Question.java
-Represents a quiz question with:
+### 📄 Question.java
+Represents a quiz question containing:
 - Question ID
-- Question Text
-- Options
+- Question
+- Four Options
 - Correct Answer
 
-### QuestionServices.java
-Handles:
-- Question creation
+### 📄 QuestionServices.java
+Responsible for:
+- Initializing quiz questions
 - Displaying questions
-- Taking user input
-- Storing answers
+- Collecting user answers
+- Storing responses
+- Displaying submitted answers
 
-## Technologies Used
+---
+
+## 🛠 Technologies Used
 
 - Java
+- Object-Oriented Programming (OOP)
 - VS Code
-- Git & GitHub
+- Git
+- GitHub
 
-## How to Run
+---
 
-1. Clone the repository
+## 🚀 Getting Started
+
+### Clone the repository
 
 ```bash
 git clone https://github.com/Sathish292004/Quiz-Using-Java.git
 ```
 
-2. Compile the files
+### Navigate to the project
+
+```bash
+cd Quiz-Using-Java
+```
+
+### Compile the project
 
 ```bash
 javac *.java
 ```
 
-3. Run the application
+### Run the application
 
 ```bash
 java Main
 ```
 
-## Learning Concepts
+---
 
-This project helped in understanding:
+## 🧠 OOP Concepts Demonstrated
 
-- Classes and Objects
+- Classes & Objects
 - Constructors
-- Getter and Setter Methods
-- Arrays
-- Enhanced For Loop
+- Encapsulation
+- Arrays of Objects
+- Methods
 - User Input using Scanner
-- Basic OOP Design
+- Modular Programming
 
-## Future Improvements
+---
 
-- Calculate and display score
-- Show correct answers
-- Randomize questions
-- Add timer functionality
-- Read questions from a file or database
+## 📸 Sample Workflow
+
+```
+Start Quiz
+      │
+      ▼
+Display Question
+      │
+      ▼
+User Selects Answer
+      │
+      ▼
+Store Response
+      │
+      ▼
+Next Question
+      │
+      ▼
+Display All Answers
+```
+
+---
+
+## 🚀 Future Enhancements
+
+- ✅ Calculate final score
+- ✅ Display correct answers
+- ✅ Randomize question order
+- ✅ Timer for each question
+- ✅ Negative marking
+- ✅ Difficulty levels
+- ✅ Read questions from JSON, CSV, or Database
+- ✅ Save quiz history
+- ✅ Leaderboard
+- ✅ GUI using Java Swing or JavaFX
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Sathish Kumar B**
+
+- GitHub: https://github.com/Sathish292004
+- LinkedIn: https://linkedin.com/in/sathish292004
+
+⭐ If you found this project helpful, consider giving it a **Star**.
